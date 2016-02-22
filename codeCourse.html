@@ -1,0 +1,17 @@
+<div class="code-course">
+	<h4 class="name"><span id="courseName">Course Name: </span>{{ course.name }}</h4>
+	<h4 class="progress-percent"><span id="progressLevel">Progress Level: </span></h4> 
+	<div class="progress">
+		<div class="progress-bar" role="progressbar" aria-valuenow="{{ course.progress }}" aria-valuemin="0" aria-valuemax="100" style="width: {{course.progress }}%;">
+		{{ course.progress }}%
+		</div>
+	</div>
+	<form>
+		<div class="form-group">
+			<label for="progressLevelBox">Adjust Progress level: </label>
+			<input type="number" class="form-control" id="progressLevelBox" placeholder="%" min="0" max="100" 
+			ng-model="course.progress">
+		</div>
+	</form>
+	<h4 class="datetime"><span id="completeDate">Date of Completion: </span>{{ course.datetime | date: 'shortDate' }}</h4>
+</div>

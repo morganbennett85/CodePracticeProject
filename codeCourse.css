@@ -1,0 +1,59 @@
+.code-course{
+
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ADD8E6;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+#completeDate{
+	font-weight: bold;
+}
+#progressLevel{
+	font-weight: bold;
+}
+#courseName{
+	font-weight: bold;
+}
+#spaceMaker{
+	height: 20px;
+}
+#indivCourseProgTable{
+	text-align: center;
+}
+th{
+	text-align: center;
+}
+.projName{
+	font-weight: bold;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+.angularHeader{
+	text-align: center;
+}
+.htmlHeader{
+	text-align: center;
+}
+h6 a{
+	text-decoration: none;
+	color: blue;
+}
+h6 a:hover{
+	color: green;
+	text-decoration: none;
+}
+@media(min-width: 650px){
+	.code-course{
+		width: 31%;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+}
