@@ -9,8 +9,8 @@ app.controller('MainController', ['$scope', function($scope) {
 		  },
 		  {	
 			name: "AngularJS",
-			progress: 73,
-			datetime: new Date(2016, 01, 14, 21, 00, 00, 00) 
+			progress: 100,
+			datetime: new Date(2016, 01, 25, 21, 00, 00, 00) 
 			
 		  },
 		  {	
@@ -33,8 +33,8 @@ app.controller('MainController', ['$scope', function($scope) {
 		  },
 		  {	
 			name: "jQuery",
-			progress: 1,
-			datetime: new Date(2016, 01, 16, 21, 00, 00, 00) 
+			progress: 100,
+			datetime: new Date(2016, 01, 25, 21, 00, 00, 00) 
 			
 		  }],
   $scope.indivCourseProg = [
@@ -57,17 +57,17 @@ app.controller('MainController', ['$scope', function($scope) {
 		{
 			course: "AngularJS",
 			numberOfUnits: 5,
-			unitsDone: 2,
+			unitsDone: 4,
 			unitProgress: 0,
-			date: new Date(2016, 01, 12, 21, 00, 00, 00),
+			date: new Date(2016, 01, 25, 21, 00, 00, 00),
 			subjects: "Directives, Services, & Routing"
 		},
 		{
 			course: "jQuery",
 			numberOfUnits: 6,
-			unitsDone: 1,
+			unitsDone: 5,
 			unitProgress: 0,
-			date: new Date(2016, 01, 18, 21, 00, 00, 00),
+			date: new Date(2016, 01, 25, 21, 00, 00, 00),
 			subjects: "Functions, Dynamic HTML, Events, & Effects"
 		}],
 		
